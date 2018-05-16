@@ -1,0 +1,67 @@
+a{
+   color:#48C7E4;
+   text-decoration: underline;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#wrapper{
+ width: 600px;
+ height: 700px;
+ background-color: gray;
+ margin: 0px auto;
+ padding: 0px;
+ border-radius: 0px;
+}
+#header{
+ display:block;
+ background-color: white;
+ padding: 15px;
+ height: 45px;
+}
+#photo{
+ width: 300px;
+ margin: 15px;
+ background-color: #2A7D8C;
+ display: inline-block;
+ color:#48C7E4;
+ border:5px;
+}
+#about{
+ height: auto;
+ width: 400px;
+ background-color: #0E1822;
+ margin: 15px;
+ display: inline-block;
+ padding:15px;
+ margin-left: 20px;
+ vertical-align: top;
+ color:#C2D6EC;
+}
+.contentwrap{
+  display:block;
+}
+.content{
+ width: 200px;
+ background-color: #5D6573;
+ margin: 15px;
+ display: inline-block;
+ color:#C2D6EC;
+ padding: 0px;
+ vertical-align: middle;
+}
+.title{
+  display:block;
+  height:40px;
+}
+.contentdata{
+  display:block;
+}
+.techcontent{
+  display:block;
+}
+#footer{
+  display:block;
+  height:40px;
+}
