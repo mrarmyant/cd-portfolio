@@ -1,5 +1,5 @@
 a{
-   color:#48C7E4;
+   color:black;
    text-decoration: underline;
 }
 img {
@@ -7,61 +7,79 @@ img {
     max-height: 100%;
 }
 #wrapper{
- width: 600px;
- height: 700px;
- background-color: gray;
+ width: 650px;
  margin: 0px auto;
  padding: 0px;
  border-radius: 0px;
+ background:linear-gradient(#1D0D11,#4F3B43,#1D0D11);
+ font-size: 12px;
+ font-family: sans-serif;
 }
 #header{
  display:block;
  background-color: white;
- padding: 15px;
- height: 45px;
+ height: 20px;
+ margin:0px;
 }
 #photo{
- width: 300px;
- margin: 15px;
+ width: 45%;
+ margin: 10px;
  background-color: #2A7D8C;
  display: inline-block;
  color:#48C7E4;
- border:5px;
 }
 #about{
- height: auto;
- width: 400px;
- background-color: #0E1822;
- margin: 15px;
+ margin-top: 10px;
  display: inline-block;
- padding:15px;
- margin-left: 20px;
- vertical-align: top;
- color:#C2D6EC;
+ padding:0px;
+}
+.aboutcontent{
+  text-align: justify;
+  background:linear-gradient(to-right, #FEFDFE, #DBCDDA)
 }
 .contentwrap{
   display:block;
 }
 .content{
  width: 200px;
- background-color: #5D6573;
- margin: 15px;
+ margin-top: 10px;
+ margin-left: 10px;
  display: inline-block;
- color:#C2D6EC;
  padding: 0px;
  vertical-align: middle;
 }
 .title{
   display:block;
-  height:40px;
+  height:20px;
+  padding: 5px;
+  background:linear-gradient(#AFAFB3, #908F9B,#AFAFB3)
 }
 .contentdata{
   display:block;
+  padding:5px;
+  height: 200px;
+  background:linear-gradient(to right, #FEFDFE, #DBCDDA)
 }
 .techcontent{
   display:block;
+  padding:5px;
+  height:100px;
+  background:linear-gradient(to right, #FEFDFE, #DBCDDA)
 }
 #footer{
   display:block;
-  height:40px;
+  height:20px;
+  background-color:white;
+  width:100%;
+  margin-top: 10px;
+}
+.email{
+  display: block;
+  text-align: center;
+ width: 100%;
+}
+.socialmedia{
+ display: block;
+ text-align: center;
+ width:100%;
 }
