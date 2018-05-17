@@ -20,14 +20,16 @@ a{
 }
 button{
     background-color: #4CAF50; /* Green */
-    border:1px solid black;
+    border:.5px solid black;
     border-radius: 8px;
     color: white;
     padding: 3px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     box-shadow: 2px 2px 18px #888888;
+    margin:auto;
+
 }
 img.content{
   width:224px;
@@ -129,12 +131,12 @@ img.sm{
   display:block;
   padding:5px;
   background:linear-gradient(to right, #FEFDFE, #DBCDDA);
-  height: 170px;
+  height: 140px;
 }
 .techcontent{
   display:block;
   padding:5px;
-  height:100px;
+  height:115px;
   background:linear-gradient(to right, #FEFDFE, #DBCDDA);
 }
 #footer{
